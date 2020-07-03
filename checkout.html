@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>CatShop</title>
+    <link href="./checkout.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="checkout">
+      <div id="checkoutForm">
+        <h1 id="mainCheckout">Login again for shipment</h1>
+        <p class="pInForm">Please fill the form for shipment</p>
+        <form name="login" method="POST">
+          <fieldset>
+            <legend>Adress Form!</legend>
+            <p class="pInForm">
+              <label for="name">Name:</label>
+              <input id="name" name="nama" type="text">
+            </p>
+            <p class="pInForm">
+              <label for="email">Email:</label>
+              <input id="email" name="email" type="email">
+            </p>
+            <p class="pInForm">
+              <label for="address">Address:</label>
+              <input id="address" name="address" type="text">
+            </p>
+            <p class="pInForm">
+              <label for="zipCode">Zip Code:</label>
+              <input id="zipCode" name="zipCode" type="text ">
+            </p>
+            <p class="pInForm">
+              <label for="creditCart">Credit Cart:</label>
+              <input id="creditCart" name="creditCard" type="text ">
+            </p>
+            <input id="submitForm" type="button" onclick="addressForm()" value="Submit">
+          </fieldset>
+        </form>
+        <br>
+      </div>
+    </div>
+    <div id="thankYou">
+      <h1 id="thankYouUser">Thank you</h1>
+      <img src="./img/giftLulu.webp" alt="Lulu">
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
